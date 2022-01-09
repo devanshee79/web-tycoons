@@ -1,0 +1,226 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Merriweather:ital,wght@1,700;1,900&display=swap');
+*{
+margin: 0;
+padding: 0;
+
+}
+
+/*navbar CSS */
+
+ul{
+    justify-content: center;
+    list-style-type: none;
+    display: inline;
+    background-color: #16303F;
+    width: 100%;
+    position: absolute;
+    height: 80px;
+
+
+}
+
+.logo{
+    font-family: 'Libre Baskerville', serif;
+    right: 10px;
+}
+li{
+    display: inline;
+    size: 100px;
+}
+li a{
+    right: 0px;
+    position: relative;
+    bottom: 0;
+    top:20px; 
+    padding:20px;
+    font-size: 30px;
+    display:inline;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+/*landing page code*/
+
+.landingSection{
+    
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    background-color: white;
+    height: 500px;
+   
+}
+.fafa{
+    position: absolute;
+    top: 60px;
+    left: 150px;
+    justify-content: center;
+    font-weight: 400;
+}
+.landingImage{
+    position: absolute;
+    right: 5px;
+    top: 20px;
+}
+#mainImage{
+    width: 600px;
+    height: 600px;
+}
+.landingText{
+    font-size: 43px;
+    font-weight: 900;
+    position: absolute;
+    top: 130px;
+    left: 40px;
+}
+.button{
+    display: inline-block;
+    margin: 20px;
+    position: absolute;
+    top: 270px;
+    left: 70px;
+    font-size :20px;
+    border-radius: 20px;
+    padding: 15px 32px;
+    background-color: #16303F;
+    color: white;
+}
+.button2{
+    position: relative;
+    left: 350px;
+    background-color: #497c99;
+    
+}
+
+#quote{
+    
+    position: fixed;
+    right : 20px;
+    bottom:0;
+    width:150px;
+    height: 100px;
+    z-index: 100;
+}
+
+#quoteSection{
+    display : none;
+    position: fixed;
+    right:0px;
+    bottom:0px;
+    z-index: 10000;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+
+}
+#top{
+    position: relative;
+    top: 0;
+    border-radius: 5px 5px 0 0  ;
+    background-color: pink;
+    height: 40px;
+}
+#quotes{
+    justify-content: center;
+    padding: 30px;
+    top: 40px;
+    position: relative;
+    width: fit-content;
+}
+#quoteButton{
+    position: relative;
+    left: 270px;
+    top: 10px;
+    height: 20px;
+    width: 20px;
+}
+/*why to choose us section code */
+.chooseUs{
+    position: absolute;
+    top: 700px;
+    background-color:#16303F ;
+    border-radius: 20%/100px 100px 0 0;
+    display: flex;
+    width: 100%;
+    height: 800px;
+}
+
+#dada{
+    margin: 60px;
+    position: relative;
+    font-size: 50px;
+    left: 380px;
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+
+.container{
+    background-color: white;
+    position: absolute;
+    height: 500px;
+    width: 30%;
+    left: 30px;
+    top: 220px;
+    border: 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+.innerContainer2{
+    font-size: 25px;
+    margin: 0 10px 15px;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+}
+
+.innerContainer3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+.container0{
+    background-color: white;
+    position: absolute;
+    height: 500px;
+    width: 30%;
+    left: 440px;
+    top: 220px;
+    border: 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+.container1{
+    background-color: white;
+    position: absolute;
+    height: 500px;
+    width: 30%;
+    left: 850px;
+    top: 220px;
+    border: 5px;
+    border-radius: 20px;
+    text-align: center;
+} 
+  /*Our Counselling Area Code*/
+
+
+
+  
+  
+
+/*footer Section*/
+.footer{
+    height: 100px;
+    width: 100%;
+   justify-content: center;
+    background-color: #16303F;
+    color: white;
+    position: absolute;
+    top: 900px;
+    bottom: 0;
+}
+
+

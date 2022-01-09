@@ -1,0 +1,62 @@
+    body {
+        padding: 0 0;
+    }
+    
+    h1 {
+        color: green;
+        text-align: center;
+    }
+    
+    h4 {
+        color: lightgreen;
+        text-align: center;
+    }
+    
+    h2 {
+        color: green;
+        text-align: center;
+        size: 100px;
+    }
+    
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-basis: 50%;
+        position: relative;
+        padding: 30px;
+    }
+    
+    .card {
+        height: 500px;
+        width: 350px;
+        /* display: flex; */
+        align-items: center;
+        padding: 60px;
+    }
+    
+     img {
+        height: 350px;
+        width: 350px;
+    }
+    /* 
+.card .btn {
+    position: absolute;
+    justify-content: center;
+} */
+    
+    .cards .card button {
+        text-align: center;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        background-color: green;
+        /* font-weight: bolder; */
+        color: white;
+        position: relative;
+        left: 90px;
+        height: 40px;
+        width: 150px;
+    }
